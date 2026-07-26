@@ -189,10 +189,10 @@ RestaurantOS
 
 | Name | Role |
 |------|------|
-| Your Name | UI/UX Designer |
-| Member 2 | Frontend Developer |
-| Member 3 | Backend Developer |
-| Member 4 | Backend & AI |
+| Vaishali | UI/UX Designer |
+| Sahasra | Frontend Developer |
+| Himaani Shri | Backend Developer |
+| Sahithi | Backend & AI |
 
 ---
 
