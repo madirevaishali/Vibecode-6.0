@@ -1,205 +1,148 @@
-<div align="center">
-
 # 🍽️ RestaurantOS
 
-### Transforming Restaurant Operations Through Digital Transparency
-
-An AI-powered Smart Restaurant Management System that connects customers, kitchen staff, waiters, and restaurant managers into one intelligent digital ecosystem.
+> A Smart Restaurant Management System built to simplify restaurant operations and improve the dining experience.
 
 ---
 
-![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react)
-![NodeJS](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js)
-![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb)
-![TailwindCSS](https://img.shields.io/badge/TailwindCSS-38B2AC?style=for-the-badge&logo=tailwind-css)
-![Gemini](https://img.shields.io/badge/Gemini-AI-blue?style=for-the-badge)
+## 📖 About the Project
 
-</div>
+RestaurantOS is a web-based application developed to solve common problems faced in restaurants such as long waiting times, manual ordering, lack of communication between customers and the kitchen, and inefficient restaurant management.
+
+Our goal is to create a digital platform where customers, waiters, chefs, and restaurant managers can interact seamlessly through one system.
 
 ---
 
-# 📖 Overview
+## ❗ Problem
 
-RestaurantOS is an AI-powered Smart Restaurant Management Platform designed to digitize the complete dine-in experience.
+Restaurants often face issues like:
 
-Instead of focusing only on digital ordering, RestaurantOS creates a connected ecosystem where customers, chefs, waiters, and restaurant managers work together through a single intelligent platform.
+- Customers waiting for available tables.
+- Manual order taking.
+- No live updates on food preparation.
+- Poor communication between customers and kitchen staff.
+- Manual billing and inventory management.
+- Lack of restaurant analytics.
 
-The system improves restaurant efficiency by providing:
-
-- Real-time communication
-- Digital ordering
-- AI-powered recommendations
-- Voice-based order customization
-- Live kitchen tracking
-- Inventory synchronization
-- Restaurant analytics
+These problems reduce efficiency and affect the customer experience.
 
 ---
 
-# 🚀 Customer Journey
+## 💡 Our Solution
 
-```text
-🏃 Customer Arrives
-        │
-        ▼
-🪑 Live Table Availability
-        │
-        ▼
-📱 Scan Table QR
-        │
-        ▼
-🍽 Browse Digital Menu
-        │
-        ▼
-🤖 AI Recommendations
-        │
-        ▼
-🎤 Voice Customization
-        │
-        ▼
-🛒 Smart Cart
-        │
-        ▼
-📦 Place Order
-        │
-        ▼
-👨‍🍳 Kitchen Dashboard
-        │
-        ▼
-🚶 Waiter Delivers
-        │
-        ▼
-💳 Payment
-        │
-        ▼
-⭐ Feedback
-```
+RestaurantOS provides a digital companion for every table.
 
----
+Customers can:
+- Scan a QR code placed on the table.
+- View the digital menu.
+- Add items to the cart.
+- Customize their order using voice or text.
+- Track the order status in real time.
+- Make payments digitally or through a waiter.
+- Submit feedback after dining.
 
-# 🌍 RestaurantOS Ecosystem
-
-```text
-                 ☁️ RestaurantOS Cloud
-
-        ┌───────────────────────────────┐
-        │                               │
- 👤 Customer    👨‍🍳 Kitchen     🚶 Waiter     👨‍💼 Manager
-        │            │             │            │
-        └────────────┼─────────────┼────────────┘
-                     │
-          🔄 Real-Time Synchronization
-                     │
-             🤖 AI Recommendation Engine
-                     │
-             📊 Analytics Dashboard
-```
+Restaurant staff can:
+- Receive orders instantly.
+- Update order status.
+- Manage inventory.
+- Coordinate with waiters.
+- View sales and restaurant analytics.
 
 ---
 
 # ✨ Features
 
-## 👤 Customer Portal
+## 👤 Customer Module
 
-- QR-based Table Identification
+- QR-based Table Access
 - Digital Menu
-- AI Dish Recommendations
 - Smart Cart
-- Voice-to-Text Custom Instructions
+- AI Dish Recommendations
+- Voice-to-Text Order Customization
 - Live Order Tracking
-- Waiter Assistance
-- Digital Payments
-- Customer Feedback
+- Digital Payment
+- Feedback System
 
 ---
 
-## 👨‍🍳 Kitchen Dashboard
+## 👨‍🍳 Kitchen Module
 
+- Kitchen Dashboard
 - Live Incoming Orders
-- Table-wise Order Management
-- Voice Instructions
-- Status Updates
+- Order Status Updates
 - Delay Notifications
-- Inventory Control
+- Inventory Management
 
 ---
 
-## 🚶 Waiter Dashboard
+## 🚶 Waiter Module
 
 - Ready-to-Serve Notifications
-- Customer Requests
+- Customer Assistance Requests
 - Payment Requests
-- Assistance Alerts
 
 ---
 
-## 👨‍💼 Manager Dashboard
+## 👨‍💼 Admin Module
 
-- Revenue Analytics
-- Peak Hours
-- Kitchen Performance
-- Staff Monitoring
-- Sales Dashboard
+- Dashboard
+- Sales Analytics
+- Inventory Tracking
 - Customer Insights
+- Staff Management
 
 ---
 
 # 🤖 AI Features
 
-- AI Dish Recommendations
-- Smart Cart Validation
+- Dish Recommendations
+- Smart Cart Suggestions
 - Wait Time Prediction
-- Kitchen Priority Engine
-- Demand Forecasting
-- Restaurant Insights
+- Voice-to-Text Order Instructions
+- Restaurant Analytics
 
 ---
 
-# 📊 Traditional Restaurant vs RestaurantOS
+# 🔄 Workflow
 
-| Traditional Restaurant | RestaurantOS |
-|------------------------|--------------|
-| Paper Menu | ✅ Digital Interactive Menu |
-| Manual Ordering | ⚡ Smart Ordering |
-| No Order Tracking | 📍 Live Tracking |
-| Manual Inventory | 📦 Live Inventory |
-| Cash Counter Billing | 💳 Table-side Payment |
-| No Analytics | 📊 AI Analytics |
+1. Customer enters the restaurant.
+2. Available tables are displayed at the entrance.
+3. Customer scans the QR code available on the table.
+4. Digital menu opens.
+5. Customer places an order.
+6. Kitchen receives the order instantly.
+7. Kitchen updates the preparation status.
+8. Waiter receives a notification when food is ready.
+9. Food is served.
+10. Customer completes payment.
+11. Customer submits feedback.
 
 ---
 
-# 🛠 Tech Stack
+# 🛠️ Tech Stack
 
-## Frontend
+### Frontend
 
 - React.js
 - Tailwind CSS
 
-## Backend
+### Backend
 
 - Node.js
 - Express.js
 
-## Database
+### Database
 
 - MongoDB
 
-## Authentication
+### Authentication
 
-- Google OAuth
 - JWT
+- Google OAuth
 
-## AI
+### AI
 
 - Gemini API
-- Speech-to-Text API
-
-## Deployment
-
-- Vercel
-- Render
-- MongoDB Atlas
+- Web Speech API (Speech-to-Text)
 
 ---
 
@@ -208,15 +151,21 @@ The system improves restaurant efficiency by providing:
 ```text
 RestaurantOS
 │
-├── client
+├── client/
+│   ├── src/
+│   ├── public/
+│   └── package.json
 │
-├── server
+├── server/
+│   ├── controllers/
+│   ├── routes/
+│   ├── models/
+│   ├── middleware/
+│   └── package.json
 │
-├── docs
+├── assets/
 │
-├── assets
-│
-├── database
+├── docs/
 │
 ├── README.md
 │
@@ -225,14 +174,14 @@ RestaurantOS
 
 ---
 
-# 🎯 Future Scope
+# 🚀 Future Enhancements
 
-- Face Recognition Loyalty Program
-- Smart Reservations
+- Smart Table Reservation
+- Loyalty Rewards Program
+- Multi-language Support
 - AR Food Preview
+- Demand Forecasting
 - Robot Waiter Integration
-- IoT Kitchen Monitoring
-- Nutrition Recommendation Engine
 
 ---
 
@@ -243,20 +192,18 @@ RestaurantOS
 | Your Name | UI/UX Designer |
 | Member 2 | Frontend Developer |
 | Member 3 | Backend Developer |
-| Member 4 | AI & Backend |
+| Member 4 | Backend & AI |
 
 ---
 
 # 📜 License
 
-MIT License
+This project was developed as part of **VibeAthon 6.0**.
 
 ---
 
-<div align="center">
+## ⭐ Thank You
 
-## ⭐ Every Table Gets Its Own Digital Companion ⭐
+Thank you for visiting our project!
 
-**Built with ❤️ for VibeAthon 6.0**
-
-</div>
+We hope RestaurantOS demonstrates how technology can improve restaurant operations and create a better dining experience for both customers and restaurant staff.
