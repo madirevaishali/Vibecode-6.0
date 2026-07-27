@@ -51,6 +51,14 @@ Our platform digitizes the entire dine-in lifecycle into a unified, lightning-fa
 * **For the Diner (`/table/[id]`):** Replaces physical menus with an interactive, categorized digital catalog. Guests can browse rich categories, customize meal preferences, place orders straight from their smartphones or table devices, and track preparation progress live.
 * **For the Kitchen Line (`/kitchen`):** Replaces messy paper pads with an industrial-grade Kitchen Display System (KDS) that instantly ingests, categorizes, and routes incoming tickets to appropriate culinary stations with clear visual cues and status pipelines.
 
+## 🔒 Design Choice: Frictionless Table-Scoped Sessions vs. Traditional Auth
+
+While hackathon guidelines often suggest traditional user authentication (Email/Password OTP or Google OAuth), **Hyderabadi Paradise** intentionally bypasses mandatory customer login walls in favor of **table-scoped QR sessions (`/table/[id]`)**. 
+
+### Why We Made This Architectural Choice:
+1. **Real-World Restaurant UX:** Forcing a hungry diner sitting at a restaurant table to create an account, verify an OTP, or log in with Google just to order food creates massive friction and kills conversion rates. In actual dine-in tech (like Zomato/Dineout QR ordering), speed and zero barriers are paramount.
+2. **Contextual Binding:** By embedding the table identifier directly into the dynamic route (`/table/1`), the system instantly knows the user's physical location without requiring personal credentials or app downloads.
+3. **Role-Based Security Where It Matters:** While customer ordering is frictionless, administrative and kitchen operations (such as the Kitchen Display System at `/kitchen`) remain protected to ensure only authorized staff can manage ticket states and pipeline workflows.
 
 ## ⚙️ Core System Features & Architecture
 
